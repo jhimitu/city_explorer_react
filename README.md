@@ -40,13 +40,13 @@ ___
 
 Number and name of feature: Search Component
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 5 minutes
 
-Start time: _____
+Start time: 9:46 am
 
-Finish time: _____
+Finish time: 9:55 am
 
-Actual time needed to complete: _____
+Actual time needed to complete: 9 minutes
 
 ___
 
