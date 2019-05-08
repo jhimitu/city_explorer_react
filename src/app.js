@@ -19,6 +19,12 @@ class Main extends React.Component {
     return (
       <React.Fragment>
         <Search />
+        <Map />
+        <Result />
+        <Result />
+        <Result />
+        <Result />
+        <Result />
       </React.Fragment>
     );
   }
@@ -28,9 +34,41 @@ class Search extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <label for="search">Search for a location</label>
+        <label htmlFor="search">Search for a location</label>
         <input type="text" name="search" placeholder="Enter a location here" />
         <button>Explore!</button>
+      </React.Fragment>
+    );
+  }
+}
+
+class Map extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <div>
+        <img src="https://via.placeholder.com/600x400" />
+        </div>
+      </React.Fragment>
+    );
+  }
+}
+
+class Result extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <section>
+          <h3>Results from the API</h3>
+          <ul className="api-results">
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+            <li>lorem ipsum</li>
+          </ul>
+        </section>
       </React.Fragment>
     );
   }
