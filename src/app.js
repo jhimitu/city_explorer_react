@@ -14,11 +14,22 @@ class Header extends React.Component {
   }
 }
 
+class Main extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <h1>Hello from Main Component!</h1>
+      </React.Fragment>
+    );
+  }
+}
+
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
         <Header />
+        <Main />
       </React.Fragment>
     );
   }
