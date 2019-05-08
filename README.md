@@ -52,22 +52,22 @@ ___
 
 Number and name of feature: Map Component
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 10 minutes
 
-Start time: _____
+Start time: 9:56 am
 
-Finish time: _____
+Finish time: 10:00 am
 
-Actual time needed to complete: _____
+Actual time needed to complete: 4 minutes
 
 ___
 
 Number and name of feature: Result Component
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 10 minutes
 
-Start time: _____
+Start time: 10:00 am
 
-Finish time: _____
+Finish time: 10:10 am
 
-Actual time needed to complete: _____
+Actual time needed to complete: 10 minutes
