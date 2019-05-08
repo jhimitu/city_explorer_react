@@ -16,13 +16,13 @@ ___
 
 Number and name of feature: Header Component
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 10 minutes
 
-Start time: _____
+Start time: 9:37 am
 
-Finish time: _____
+Finish time: 9:40 am
 
-Actual time needed to complete: _____
+Actual time needed to complete: 3 minutes
 
 ___
 
