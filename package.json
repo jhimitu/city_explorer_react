@@ -2,9 +2,10 @@
   "name": "city_explorer_react",
   "version": "1.0.0",
   "description": "rebuilding City Explorer app in ReactJS ___",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "repository": {
     "type": "git",
