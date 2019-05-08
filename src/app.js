@@ -18,7 +18,19 @@ class Main extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <h1>Hello from Main Component!</h1>
+        <Search />
+      </React.Fragment>
+    );
+  }
+}
+
+class Search extends React.Component {
+  render() {
+    return (
+      <React.Fragment>
+        <label for="search">Search for a location</label>
+        <input type="text" name="search" placeholder="Enter a location here" />
+        <button>Explore!</button>
       </React.Fragment>
     );
   }
