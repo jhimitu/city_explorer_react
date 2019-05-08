@@ -4,13 +4,13 @@ ___
 
 Number and name of feature: App Component
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 10 minutes
 
-Start time: _____
+Start time: 9:20 am
 
-Finish time: _____
+Finish time: 9:30 am
 
-Actual time needed to complete: _____
+Actual time needed to complete: 10 minutes
 
 ___
 
