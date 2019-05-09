@@ -1,6 +1,7 @@
 'use strict';
 
 import React from "react";
+import SearchForm from "./search-form.js";
 
 class Header extends React.Component {
   render() {
@@ -17,25 +18,13 @@ class Main extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Search />
+        <SearchForm />
         <Map />
         <Result />
         <Result />
         <Result />
         <Result />
         <Result />
-      </React.Fragment>
-    );
-  }
-}
-
-class Search extends React.Component {
-  render() {
-    return (
-      <React.Fragment>
-        <label htmlFor="search">Search for a location</label>
-        <input type="text" name="search" placeholder="Enter a location here" />
-        <button>Explore!</button>
       </React.Fragment>
     );
   }
