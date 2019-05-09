@@ -3,6 +3,10 @@
 import React from "react";
 
 class DarkSky extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+  
   render() {
     return (
       <React.Fragment>
