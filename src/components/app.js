@@ -27,8 +27,6 @@ class App extends React.Component {
   }
 
   handleSubmit = e => {
-    console.log(e.target.children[1].name);
-    console.log(e.target.children[1].id);
     if (e.target.children[1].id === 'back-end-url') {
       this.setState({ 
         url: e.target.children[1].value,
