@@ -7,6 +7,14 @@ import SearchResults from "./search-result.js";
 import Map from "./map.js";
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      location: {}
+    }
+  }
+  
   render() {
     return (
       <React.Fragment>
