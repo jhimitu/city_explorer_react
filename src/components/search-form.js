@@ -14,7 +14,7 @@ class SearchForm extends React.Component {
         <React.Fragment>
           <form onSubmit={this.props.handleSubmit}>
             <label htmlFor="search">Search for a location</label>
-            <input type="text" name="search" placeholder="Enter a location here" onChange={this.props.handleCityChange} />
+            <input type="text" name="search" placeholder="Enter a location here" />
             <button>Explore!</button>
           </form>
         </React.Fragment>
@@ -24,7 +24,7 @@ class SearchForm extends React.Component {
         <React.Fragment>
             <form id="geocode-form" onSubmit={this.props.handleSubmit}>
               <label>Enter your Geocoding API Key:</label>
-              <input type="text" id="api-key" onChange={this.props.handleApiChange} />
+              <input type="text" id="api-key" />
             </form>
         </React.Fragment>
       );
@@ -33,12 +33,12 @@ class SearchForm extends React.Component {
         <React.Fragment>
           <form onSubmit={this.props.handleSubmit}>
             <label>Enter the URL to your deployed back end, making sure to remove the trailing forward slash</label>
-            <input type="text" id="back-end-url" onChange={this.props.handleUrlChange} />
+            <input type="text" id="back-end-url" />
           </form>
 
           <form id="geocode-form" onSubmit={this.props.handleSubmit}>
             <label>Enter your Geocoding API Key:</label>
-            <input type="text" id="api-key" onChange={this.props.handleApiChange} />
+            <input type="text" id="api-key" />
           </form>
         </React.Fragment>
       );
