@@ -38,7 +38,10 @@ class App extends React.Component {
         search_query: e.target.children[1].value,
       });
     }
-    if (this.state.search_query) {
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.search_query !== this.state.search_query) {
         this.getLocation();
     }
   }
