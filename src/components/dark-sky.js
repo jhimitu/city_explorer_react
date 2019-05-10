@@ -28,7 +28,9 @@ class DarkSky extends React.Component {
       <React.Fragment>
         <section>
           <h3>Results from the Dark Sky API</h3>
-          <ul className="weather-results"></ul>
+          <ul className="weather-results">{this.state.weatherData.map((data, i) => 
+            <li key={i}>{data.forecast} {data.time}</li>  
+          )}</ul>
         </section>
       </React.Fragment>
     );
