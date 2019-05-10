@@ -65,7 +65,7 @@ class App extends React.Component {
         <React.Fragment>
           <Header />
           <SearchForm backendUrl={this.state.url} search={this.state.search_query} handleChange={this.handleChange} handleSubmit={this.handleSubmit} />
-          <Map latitude={47.8209301} longitude={-122.3151314} />
+          <Map latitude={this.state.location.latitude} longitude={this.state.location.longitude} />
           <SearchResults />
         </React.Fragment>
       );
