@@ -14,7 +14,7 @@ class SearchResults extends React.Component {
     return (
       <React.Fragment>
         <DarkSky latitude={this.props.latitude} longitude={this.props.longitude} url={this.props.url} id={this.props.id} />
-        <Yelp search={this.props.search} />
+        <Yelp search={this.props.search} url={this.props.url} />
         <EventBrite latitude={this.props.latitude} longitude={this.props.longitude} />
         <MovieDB search={this.props.search} />
       </React.Fragment>

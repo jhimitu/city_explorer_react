@@ -19,11 +19,20 @@ class DarkSky extends React.Component {
       weatherData
     });
   }
-  
-  render() {
-    if(this.props.latitude && this.props.longitude) {
+
+  componentDidMount() {
+    if(this.props.latitude !== undefined) {
       this.getWeather();
     }
+  }
+
+  componentDidUpdate(prevProps) {
+    if(prevProps.latitude !== this.props.latitude) {
+      this.getWeather();
+    }
+  }
+  
+  render() {
     return (
       <React.Fragment>
         <section>
