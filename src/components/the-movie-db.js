@@ -38,8 +38,8 @@ class MovieDB extends React.Component {
       <React.Fragment>
         <section>
           <h3>Results from the Movie DB API</h3>
-          <ul className="movies-results">{this.state.movies.map((data) => (
-            <li>{<div className="movies">
+          <ul className="movies-results">{this.state.movies.map((data, i) => (
+            <li key={i}>{<div className="movies">
               <a href={data.url}><h4>{data.title}</h4></a>
               <img src={data.image_url} />
               <p>Popularity: {data.popularity}</p>
