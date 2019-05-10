@@ -1,10 +1,15 @@
 'use strict';
 
 import React from "react";
+import superagent from "superagent";
+import { async } from "q";
 
 class Map extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      weatherApiUrl: '',
+    }
   }
   
   render() {
